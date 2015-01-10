@@ -1,0 +1,457 @@
+[bindings]
+{
+	name = "current";
+	[activate_power_1]
+	{
+		input = key_1;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:activate_power_1]
+	{
+		input = key_numpad1;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[activate_power_2]
+	{
+		input = key_2;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:activate_power_2]
+	{
+		input = key_numpad2;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[activate_power_3]
+	{
+		input = key_3;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:activate_power_3]
+	{
+		input = key_numpad3;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[activate_power_4]
+	{
+		input = key_4;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:activate_power_4]
+	{
+		input = key_numpad4;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[activate_power_5]
+	{
+		input = key_5;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:activate_power_5]
+	{
+		input = key_numpad5;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[activate_power_6]
+	{
+		input = key_6;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:activate_power_6]
+	{
+		input = key_numpad6;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[camera_rotate_down]
+	{
+		input = key_down;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[t:secondary,n:camera_rotate_down]
+	{
+		input = key_s;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[camera_rotate_left]
+	{
+		input = key_left;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[t:secondary,n:camera_rotate_left]
+	{
+		input = key_a;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[camera_rotate_right]
+	{
+		input = key_right;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[t:secondary,n:camera_rotate_right]
+	{
+		input = key_d;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[camera_rotate_up]
+	{
+		input = key_up;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[t:secondary,n:camera_rotate_up]
+	{
+		input = key_w;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[camera_zoom_in]
+	{
+		input = key_equals;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[t:secondary,n:camera_zoom_in]
+	{
+		input = wheel_up;
+	}
+	[camera_zoom_out]
+	{
+		input = key_minus;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[t:secondary,n:camera_zoom_out]
+	{
+		input = wheel_down;
+	}
+	[chat_history_clear]
+	{
+		input = key_end;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[chat_history_down]
+	{
+		input = key_pagedown;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[chat_history_lock]
+	{
+		input = key_scrolllock;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[chat_history_up]
+	{
+		input = key_pageup;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[collect_loot]
+	{
+		input = key_z;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[disband_selected]
+	{
+		input = key_d;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[formation_decrease_spacing]
+	{
+		input = key_rbracket;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[formation_hold_ground]
+	{
+		input = key_c;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[formation_increase_spacing]
+	{
+		input = key_lbracket;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[formation_regroup]
+	{
+		input = key_r;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[game_pause]
+	{
+		input = key_space;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:game_pause]
+	{
+		input = key_pause;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_1]
+	{
+		input = key_f7;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_10]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_2]
+	{
+		input = key_f8;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_3]
+	{
+		input = key_f9;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_4]
+	{
+		input = key_f10;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_5]
+	{
+		input = key_f11;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_6]
+	{
+		input = key_f12;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_7]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_8]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_awp_9]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_group_1]
+	{
+		input = key_f1;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_group_2]
+	{
+		input = key_f2;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_group_3]
+	{
+		input = key_f3;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_group_4]
+	{
+		input = key_f4;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_group_5]
+	{
+		input = key_f5;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[get_group_6]
+	{
+		input = key_f6;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[guard]
+	{
+		input = key_g;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[inventory]
+	{
+		input = key_i;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[magic]
+	{
+		input = key_b;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[move]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[multi_inventory]
+	{
+		input = key_v;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[next_power]
+	{
+		input = key_9;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:next_power]
+	{
+		input = key_numpad9;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[party_heal_body_with_potions]
+	{
+		input = key_h;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:party_heal_body_with_potions]
+	{
+		input = key_q;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[party_heal_magic_with_potions]
+	{
+		input = key_m;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:party_heal_magic_with_potions]
+	{
+		input = key_e;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[previous_power]
+	{
+		input = key_0;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[t:secondary,n:previous_power]
+	{
+		input = key_numpad0;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[save_game]
+	{
+		input = key_s;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[select_last_player]
+	{
+		input = key_comma;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[select_next_player]
+	{
+		input = key_period;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[set_awp_1]
+	{
+		input = key_f7;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[set_awp_10]
+	{
+		input = key_none;
+		qualifiers = control | key_down;
+	}
+	[set_awp_2]
+	{
+		input = key_f8;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[set_awp_3]
+	{
+		input = key_f9;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[set_awp_4]
+	{
+		input = key_f10;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[set_awp_5]
+	{
+		input = key_f11;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[set_awp_6]
+	{
+		input = key_f12;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[set_awp_7]
+	{
+		input = key_none;
+		qualifiers = control | key_down;
+	}
+	[set_awp_8]
+	{
+		input = key_none;
+		qualifiers = control | key_down;
+	}
+	[set_awp_9]
+	{
+		input = key_none;
+		qualifiers = control | key_down;
+	}
+	[social_window_friendlist]
+	{
+		input = key_f;
+		qualifiers = ignore_buttons | control | key_down;
+	}
+	[sort_inventory]
+	{
+		input = key_k;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[specialties]
+	{
+		input = key_p;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[standing_orders_aggressive]
+	{
+		input = key_g;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[standing_orders_guard]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[standing_orders_mirror]
+	{
+		input = key_f;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[standing_orders_wait]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[stop]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[toggle_gui_edit_box]
+	{
+		input = key_return;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[toggle_item_labels]
+	{
+		input = key_l;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[toggle_journal]
+	{
+		input = key_j;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[toggle_player_labels]
+	{
+		input = key_y;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[toggle_status_bars]
+	{
+		input = key_u;
+		qualifiers = ignore_buttons | key_down;
+	}
+}

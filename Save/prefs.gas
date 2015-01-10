@@ -1,0 +1,63 @@
+[prefs]
+{
+	azimuth_degrees_per_second = 0.698132;
+	blood = red;
+	camera_inverse_x = false;
+	camera_inverse_y = false;
+	eax_enabled = false;
+	enable_sell_all_dialog = true;
+	flip_game_mouse = true;
+	lock_camera_x_axis = false;
+	lock_camera_y_axis = false;
+	max_text = 6;
+	mouse_sensitivity = 1.000000;
+	object_detail_level = 1.000000;
+	orbit_degrees_per_second = 1.570796;
+	priority_boost = true;
+	screen_edge_tracking = true;
+	shaders = advanced;
+	show_framerate = true;
+	show_power_status_dialog = true;
+	show_tooltips = true;
+	sound_ambient_volume = 0.708661;
+	sound_enabled = true;
+	sound_master_volume = 0.795276;
+	sound_music_volume = 0.622047;
+	sound_sfx_volume = 0.763780;
+	sound_voice_volume = 0.685039;
+	text_scroll = 5.000000;
+	texture_filtering = trilinear;
+	video_gamma = 1.000000;
+	video_shadows = complex;
+	zoom_meters_per_second = 11.999999;
+	[character]
+	{
+		character_name = "Nikki";
+		selected_character = hero_human_female;
+		texture_hero_dryad_faces = b_c_gah_dd_skin_01_31;
+		texture_hero_dryad_hair = b_c_gah_dd_hair_01_01;
+		texture_hero_dryad_heads = m_c_gah_amr_hlmt_dd_head-01;
+		texture_hero_dwarf_male_faces = b_c_gah_dm_skin_01_42;
+		texture_hero_dwarf_male_hair = b_c_gah_dm_hair_01_04;
+		texture_hero_dwarf_male_heads = m_c_gah_amr_hlmt_dm_head-01;
+		texture_hero_elf_female_faces = b_c_gah_ef_skin_01_11;
+		texture_hero_elf_female_hair = b_c_gah_ef_hair_01_01;
+		texture_hero_elf_female_heads = m_c_gah_amr_hlmt_ef_head-01;
+		texture_hero_elf_male_faces = b_c_gah_em_skin_01_11;
+		texture_hero_elf_male_hair = b_c_gah_em_hair_01_01;
+		texture_hero_elf_male_heads = m_c_gah_amr_hlmt_em_head-01;
+		texture_hero_halfgiant_faces = b_c_gah_hg_skin_01_21;
+		texture_hero_halfgiant_hair = b_c_gah_hg_hair_02_01;
+		texture_hero_halfgiant_heads = m_c_gah_amr_hlmt_hg_head-01;
+		texture_hero_human_female_faces = b_c_gah_hf_skin_04_02;
+		texture_hero_human_female_hair = b_c_gah_hf_hair_04_04;
+		texture_hero_human_female_heads = m_c_gah_amr_hlmt_hf_head-04;
+		texture_hero_human_male_faces = b_c_gah_hm_skin_01_01;
+		texture_hero_human_male_hair = b_c_gah_hm_hair_01_01;
+		texture_hero_human_male_heads = m_c_gah_amr_hlmt_hm_head-01;
+	}
+	[player]
+	{
+		last_save_game = Nikki;
+	}
+}
