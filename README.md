@@ -1,10 +1,11 @@
 Dungeon Siege 2 Broken World Save
 =======
 
-Rozdzia³ I
+Rozdzia³ II
 -----------
 
 #TODO
-* Pierwsza wie¿a - moce x2
-* Kaplica - moce x2
-* Kowal
+* Ogród pradwnych - koksu na 45lvl
+* Misja akt 2 - koksu na 45lvl
+* Duchy
+* Misje dla towarzyszy

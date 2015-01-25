@@ -19,17 +19,17 @@
 	show_framerate = true;
 	show_power_status_dialog = true;
 	show_tooltips = true;
-	sound_ambient_volume = 0.708661;
+	sound_ambient_volume = 0.692913;
 	sound_enabled = true;
-	sound_master_volume = 0.795276;
-	sound_music_volume = 0.622047;
-	sound_sfx_volume = 0.763780;
-	sound_voice_volume = 0.685039;
+	sound_master_volume = 0.787402;
+	sound_music_volume = 0.606299;
+	sound_sfx_volume = 0.755906;
+	sound_voice_volume = 0.669291;
 	text_scroll = 5.000000;
 	texture_filtering = trilinear;
 	video_gamma = 1.000000;
 	video_shadows = complex;
-	zoom_meters_per_second = 11.999997;
+	zoom_meters_per_second = 11.999998;
 	[character]
 	{
 		character_name = "Nikki";
